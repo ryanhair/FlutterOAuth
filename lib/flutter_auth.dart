@@ -35,8 +35,7 @@ class FlutterOAuth extends OAuth {
       });
 
       webView.launch("${requestDetails.url}?$urlParams",
-          clearCookies: requestDetails.clearCookies,
-          fullScreen: requestDetails.fullScreen);
+          clearCookies: requestDetails.clearCookies);
 
       code = await onCode.first;
       close();

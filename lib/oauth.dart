@@ -3,10 +3,10 @@ library flutter_oauth;
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:flutter_oauth/lib/auth_code_information.dart';
-import 'package:flutter_oauth/lib/model/config.dart';
-import 'package:flutter_oauth/lib/oauth_token.dart';
-import 'package:flutter_oauth/lib/token.dart';
+import 'auth_code_information.dart';
+import 'model/config.dart';
+import 'oauth_token.dart';
+import 'token.dart';
 import 'package:http/http.dart';
 
 abstract class OAuth {

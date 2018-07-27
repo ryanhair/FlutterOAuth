@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_oauth/lib/flutter_auth.dart';
-import 'package:flutter_oauth/lib/model/config.dart';
-import 'package:flutter_oauth/lib/oauth.dart';
-import 'package:flutter_oauth/lib/token.dart';
+import 'package:flutter_oauth/flutter_auth.dart';
+import 'package:flutter_oauth/model/config.dart';
+import 'package:flutter_oauth/oauth.dart';
+import 'package:flutter_oauth/token.dart';
 
 void main() {
   runApp(new FlutterView());
